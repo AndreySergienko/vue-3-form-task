@@ -110,3 +110,16 @@
     }
   }
 }
+
+@media (max-width: 360px) {
+  .form {
+    &__buttons {
+      display: flex;
+      flex-direction: column;
+    }
+
+    &__buttons > button:first-child {
+      margin-right: 0;
+    }
+  }
+}
